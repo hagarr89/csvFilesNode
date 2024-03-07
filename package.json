@@ -1,0 +1,35 @@
+{
+  "name": "upload-csv-into-node-server",
+  "version": "1.0.0",
+  "description": "This is upload csv file into mongodb database using nodejs multer example",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "upload",
+    "CSV",
+    "file",
+    "multer",
+    "node js",
+    "mongodb",
+    "database",
+    "rest api",
+    "fast-csv"
+  ],
+  "author": "Dipak Belsare",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "fast-csv": "^4.3.6",
+    "mongodb": "^3.7.4",
+    "multer": "^1.4.4",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "ts-node": "^10.9.2"
+  }
+}
