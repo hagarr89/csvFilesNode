@@ -17,7 +17,7 @@ declare global {
 
 global.__basedirTS = __dirname;
 
-// Configuring Multer for handling File Uploads
+// Configuring Multer for File Uploads:
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, global.__basedirTS + "/uploads/");
@@ -117,7 +117,7 @@ app.get("/api/get-csv-data", (req, res) => {
     });
   }
 });
-// Starting the Server
+// Starting the Server:
 let server = app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });

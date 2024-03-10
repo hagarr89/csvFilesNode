@@ -17,7 +17,7 @@ declare global {
 
 global.__basedirTS = __dirname;
 
-// Configuring Multer for handling File Uploads
+// Configuring Multer for File Uploads:
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, global.__basedirTS + "/uploads/");
